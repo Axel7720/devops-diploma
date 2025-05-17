@@ -7,3 +7,6 @@
 [submodule "django-chart"]
 	path = django-chart
 	url = https://github.com/Axel7720/django-chart.git
+[submodule "monitoring"]
+	path = monitoring
+	url = https://github.com/Axel7720/monitoring.git
