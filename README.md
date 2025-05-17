@@ -1,3 +1,21 @@
+# Diploma Project
+
+Этот репозиторий содержит финальный дипломный проект. В нем собраны все ключевые компоненты, разбитые по подмодулям.
+
+## Структура репозитория
+
+- **[devops-infra](https://github.com/Axel7720/devops-infra)** — содержит инфраструктурную часть проекта: Helm-чарты, Kubernetes-манифесты, CI/CD-конфигурации и другие DevOps-компоненты.
+- **[django-chart](https://github.com/Axel7720/django-chart)** — Helm-чарт для деплоя Django-приложения в Kubernetes.
+- **[django-pg-docker-tutorial](https://github.com/Axel7720/django-pg-docker-tutorial)** — основной Django-проект, с PostgreSQL, подготовленный для контейнеризации.
+- **[monitoring](https://github.com/Axel7720/monitoring)** — система мониторинга, включающая Prometheus, Grafana и Alertmanager. Развёрнута на внешнем сервере (srv) для отслеживания состояния кластера и приложения.
+
+## Описание
+
+- Приложение развернуто в Kubernetes-кластере.
+- Мониторинг и логирование настроены через стек Prometheus + Grafana + Alertmanager + Loki/Promtail.
+- Все конфигурации и окружение зафиксированы в соответствующих подмодулях.
+
+
 ## Ручные шаги при установке Kubernetes
 
 1. На master-узле:
@@ -29,3 +47,9 @@
     kubectl get nodes
     kubectl get pods -n kube-system -o wide
  
+## Автор
+
+**Aleksandr Ushakov**  
+Email: sasha_ushi@mail.ru  
+GitHub: [Axel7720](https://github.com/Axel7720)
+
