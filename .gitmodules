@@ -1,3 +1,6 @@
 [submodule "devops-infra"]
 	path = devops-infra
 	url = https://github.com/Axel7720/devops-infra.git
+[submodule "django-pg-docker-tutorial"]
+	path = django-pg-docker-tutorial
+	url = https://github.com/Axel7720/django-pg-docker-tutorial.git
