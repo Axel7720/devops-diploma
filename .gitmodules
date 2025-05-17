@@ -4,3 +4,6 @@
 [submodule "django-pg-docker-tutorial"]
 	path = django-pg-docker-tutorial
 	url = https://github.com/Axel7720/django-pg-docker-tutorial.git
+[submodule "django-chart"]
+	path = django-chart
+	url = https://github.com/Axel7720/django-chart.git
